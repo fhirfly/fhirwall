@@ -1,0 +1,7 @@
+FROM openpolicyagent/opa:latest
+
+EXPOSE 8181
+
+WORKDIR  /bundles
+COPY bundle.tar.gz /bundles/
+CMD ["run", "--server", "--log-format=json-pretty", "--bundle", "bundle.tar.gz", "--log-level", "debug"] 
