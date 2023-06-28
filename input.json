@@ -1,0 +1,10 @@
+{"header": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzM4NCJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0Iiwic3ViIjoiMTIzNCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3QvdG9rZW4iLCJleHAiOjE2ODM2Mzk4MjYsImp0aSI6ImNmYTUxMzMzLTlkNmUtNDhiYi1iNmE1LWE5Yjc1YWU3ZDdjMiJ9.JR13hzwwdhy1BVGn8x0NykiHGFf6aQCKF4trXWWcU2v23xmTZiYBYxb5lm6Wa6dJyg6J2QMKwlz1sOAVfqjJwpFBrsS65rcGHUJCZNHr2MGB0qrO-crQVE_mpTkHUVUxETrjzrc-qybFUaVHu_ir5Qgasqmzl0SoGps1FaEh0r0mlC-JGaFh9kfcwuD0ByrBLbFPHT46n8pyvV5O3JMfMNPAaw4koe434dV07z66Il39aecDGRjT0fEFFyYVoJAA7MKXWZYcQRDATYIJBHe31svsvwYVmCZqvqWHREdSqweROmYzz7zu4FUJ3ct84J2w7nWgTNUOPdIFBSfzD4xnAQ"
+},
+"method": "GET",
+"resource" : "Observation",
+"fhiruser": "Patient/1234",
+"patient": "Patient/1234",
+"scope": "patient/Patient.read patient/Observation.read",
+"role": "patient"
+}
