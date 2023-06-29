@@ -8,10 +8,10 @@ Installation
 Usage
 Contributing
 License
-Introduction
+## Introduction
 Welcome to FHIRWall! FHIRWall is a software package that enforces authorization rules on Fast Healthcare Interoperability Resources (FHIR) APIs. It leverages the power of Open Policy Agent (OPA) to help you protect sensitive healthcare data and ensure that only the appropriate entities have access to it.
 
-Features
+## Features
 With fhirwall, you can:
 
 Implement fine-grained authorization policies for FHIR APIs.
@@ -22,20 +22,20 @@ Ensure secure access to your FHIR resources and protect them from unauthorized a
 Leverage customizable templates for standard policy structures, simplifying policy creation and maintenance.
 Monitor and log access attempts and outcomes for compliance and auditing purposes.
 
-Requirements
+## Requirements
 Docker
 Open Policy Agent (OPA)
 FHIR API
 
-Installation
+## Installation
 To install fhirwall, you must first ensure you have Docker installed and running on your system. Afterward, you can pull the fhirwall image from Docker Hub.
 
-``$ docker pull your-org/fhirwall```
+```$ docker pull your-org/fhirwall```
 Next, run FHIRWall with the correct configuration file.
 
 ```$ docker run -p 8181:8181 -v /path/to/config:/config your-org/fhirwall````
 
-Usage
+## Usage
 fhirwall is designed to intercept API requests and enforce authorization policies.
 
 Define your policies in Rego and load them into fhirwall.  fhirwall currently provides a powerful, standards based policy file that supports Smart on FHIR, and other advanced features. 
@@ -43,10 +43,10 @@ whirwall will evaluate incoming API requests against these policies.
 
 For a detailed guide on policy creation, please refer to our The REGO language and the Open Policy Creation Guide.
 
-Contributing
+## Contributing
 We welcome contributions to fhirwall! If you're interested in contributing, please read our Contributing Guidelines for information on how to get started.
 
-License
+## License
 fhirwall is licensed under the MIT License. For more information, please refer to the LICENSE file in this repository.
 
 ## How to test the API
