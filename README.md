@@ -34,7 +34,7 @@ To install fhirwall, you must first ensure you have Docker installed and running
 
 Next, run fhirwall with the correct configuration file.
 
-```$ docker run -p 8181:8181 -v /path/to/config:/config your-org/fhirwall````
+```$ docker run -p 8181:8181 -v /path/to/config:/config your-org/fhirwall```
 
 ## Usage
 fhirwall is designed to intercept API requests and enforce authorization policies.
