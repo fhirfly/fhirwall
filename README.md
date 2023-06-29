@@ -1,4 +1,4 @@
-# fhir-opa
+# fhirwall
 Open Policy Agent for FHIR APIs
 
 ## How to run
