@@ -61,7 +61,7 @@ POST : http://localhost:8181/v1/data/fhirapi/authz/allow
 
 Body:
 
-``{"input": {"header": {
+{"input": {"header": {
 "token": "<token_value>"
 },
 "method": "GET",
@@ -71,7 +71,8 @@ Body:
 "scope": "patient/Patient.read patient/Observation.read",
 "role": "patient"
 }
-}```
+}
+```
 
 
 
