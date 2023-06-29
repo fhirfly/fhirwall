@@ -1,13 +1,17 @@
 # fhirwall
 fhirwall: OPA-based FHIR API Authorization
+
 Table of Contents
-Introduction
-Features
-Requirements
-Installation
-Usage
-Contributing
-License
+
+1. Introduction
+2. Features
+3. Requirements
+4. Installation
+5. Usage
+6. Contributing
+7. License
+8. How to test the API
+   
 ## Introduction
 Welcome to fhirwall! fhirwall is a software package that enforces authorization rules on Fast Healthcare Interoperability Resources (FHIR) APIs. It leverages the power of Open Policy Agent (OPA) to help you protect sensitive healthcare data and ensure that only the appropriate entities have access to it.
 
