@@ -1,5 +1,5 @@
 # fhirwall
-fhirWall: OPA-based FHIR API Authorization
+fhirwall: OPA-based FHIR API Authorization
 Table of Contents
 Introduction
 Features
@@ -9,7 +9,7 @@ Usage
 Contributing
 License
 ## Introduction
-Welcome to FHIRWall! FHIRWall is a software package that enforces authorization rules on Fast Healthcare Interoperability Resources (FHIR) APIs. It leverages the power of Open Policy Agent (OPA) to help you protect sensitive healthcare data and ensure that only the appropriate entities have access to it.
+Welcome to fhirwall! fhirwall is a software package that enforces authorization rules on Fast Healthcare Interoperability Resources (FHIR) APIs. It leverages the power of Open Policy Agent (OPA) to help you protect sensitive healthcare data and ensure that only the appropriate entities have access to it.
 
 ## Features
 With fhirwall, you can:
@@ -32,7 +32,7 @@ To install fhirwall, you must first ensure you have Docker installed and running
 
 ```$ docker pull your-org/fhirwall```
 
-Next, run FHIRWall with the correct configuration file.
+Next, run fhirwall with the correct configuration file.
 
 ```$ docker run -p 8181:8181 -v /path/to/config:/config your-org/fhirwall````
 
