@@ -31,6 +31,7 @@ FHIR API
 To install fhirwall, you must first ensure you have Docker installed and running on your system. Afterward, you can pull the fhirwall image from Docker Hub.
 
 ```$ docker pull your-org/fhirwall```
+
 Next, run FHIRWall with the correct configuration file.
 
 ```$ docker run -p 8181:8181 -v /path/to/config:/config your-org/fhirwall````
